@@ -1,0 +1,27 @@
+{
+  "name": "babeljs",
+  "version": "1.0.0",
+  "description": "A package example about using BabelJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/CristhianMotoche/babel_js_guide.git"
+  },
+  "keywords": [
+    "babeljs"
+  ],
+  "author": "CristhianMotoche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CristhianMotoche/babel_js_guide/issues"
+  },
+  "homepage": "https://github.com/CristhianMotoche/babel_js_guide#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-es2015-arrow-functions": "^6.22.0"
+  }
+}
