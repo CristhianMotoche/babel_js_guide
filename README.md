@@ -65,3 +65,14 @@ Syntactic sygar for constructing strings.
 var hello = 'Hello template strings!';
 var strings = `This is a template string. ${hello}`;
 ```
+
+## ES2015: Let and const
+- `let` is the new var
+- `const` is single-assignment
+
+```javascript
+let x = 3;
+x = "foo";
+const y = 3;
+y = "lol"; // Error
+```
