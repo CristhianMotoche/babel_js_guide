@@ -57,3 +57,11 @@ var Dog = class Dog {
   }
 };
 ```
+
+## ES2015: Template Strings
+Syntactic sygar for constructing strings.
+
+```javascript
+var hello = 'Hello template strings!';
+var strings = `This is a template string. ${hello}`;
+```
